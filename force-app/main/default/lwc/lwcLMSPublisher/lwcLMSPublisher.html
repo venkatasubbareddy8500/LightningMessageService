@@ -1,0 +1,11 @@
+<template>
+    <div style="background:#ffffff;padding:0.8rem;height:18.3rem;border-radius:0.3rem">
+        <p class="slds-page-header">Lightning Web Component(PUBLISHER)</p>
+        <div style="width: 17rem;">
+            <lightning-textarea name="input1" label="" onchange={onValueChange}></lightning-textarea>
+        </div>
+        <br />
+        <lightning-button variant="success" label="Send" title="Send" onclick={send} class="slds-m-left_x-small">
+        </lightning-button>
+    </div>
+</template>

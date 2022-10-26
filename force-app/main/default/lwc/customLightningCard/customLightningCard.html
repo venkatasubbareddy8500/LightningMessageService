@@ -1,0 +1,22 @@
+<template>
+    <lightning-card> 
+
+        <header class="slds-card__header"> 
+
+          <slot name="header"></slot> 
+
+        </header> 
+
+        <div class="alds-card__body"> 
+
+            <slot></slot> 
+
+        </div>            
+
+        <footer class="slds-card__footer slds-hide" > 
+
+            <slot name="footer" onslotchange={footerHandler}></slot> 
+        </footer> 
+
+    </lightning-card> 
+</template>

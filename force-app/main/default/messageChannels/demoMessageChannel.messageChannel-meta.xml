@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<LightningMessageChannel xmlns="http://soap.sforce.com/2006/04/metadata">
+    <description>This Lightning Message Channel is Used for calling LWC Events</description>
+    <isExposed>true</isExposed>
+    <lightningMessageFields>
+        <description>Message</description>
+        <fieldName>data</fieldName>
+    </lightningMessageFields>
+    <lightningMessageFields>
+        <description>Boolean Check</description>
+        <fieldName>source</fieldName>
+    </lightningMessageFields>
+    <masterLabel>demoMessageChannel</masterLabel>
+</LightningMessageChannel>

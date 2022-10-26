@@ -1,0 +1,13 @@
+<template>
+    <div style="background:#ffffff;padding:0.8rem;height:18.3rem;border-radius:0.3rem">
+        <p class="slds-page-header">Lightning Web Component(SUBSCRIBER)&nbsp; &nbsp; <b><span id = "indicator" style = "color:red;">{indication}</span></b></p><br/>
+        <div>
+            <lightning-button variant="success" label="Subscribe" title="Subscribe" onclick={subscribeMsg} class="slds-m-left_x-small"></lightning-button>
+            <lightning-button variant="destructive-text" label="Unsubscribe" title="Unsubscribe" onclick={unsubscribeMsg} class="slds-m-left_x-small"></lightning-button>
+            <br/>
+            <br/>
+            <p>Received message:</p>
+            {payload}
+        </div>
+    </div>
+</template>

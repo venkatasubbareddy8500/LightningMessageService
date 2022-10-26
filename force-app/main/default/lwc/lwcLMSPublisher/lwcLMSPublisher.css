@@ -1,0 +1,33 @@
+.custom-field{
+    width: 30rem !important;
+    margin-left: 10rem;
+}
+
+.slds-form-element__label{
+    font-size:medium !important;
+}
+
+.header-container{
+    font-size: x-large;
+    text-align: center;
+    height: 5%;
+}
+
+.results-container{
+    text-align: center;
+    height:25%;
+}
+
+.footer-container{
+    text-align: center;
+    height: 5%;
+    padding: 1rem;
+}
+
+.fields-container{
+    height:50%;    
+}
+
+.clear-link{
+    color:gray;
+}
