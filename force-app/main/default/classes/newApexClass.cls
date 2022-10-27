@@ -1,4 +1,7 @@
 public class newApexClass {
+
+     
+
     public integer ball = 9090; 
 
     public string applee = 'vinod'; 
